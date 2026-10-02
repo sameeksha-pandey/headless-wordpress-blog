@@ -1,0 +1,35 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@theme {
+  --font-sans: var(--font-inter);
+  --color-brand-50: #eef6ff;
+  --color-brand-100: #d9eaff;
+  --color-brand-600: #2563eb;
+  --color-brand-700: #1d4ed8;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-white text-slate-800 antialiased;
+}
+
+/* Keeps WordPress images and embeds inside the article width */
+.prose img,
+.prose iframe {
+  max-width: 100%;
+  height: auto;
+}
+
+.prose iframe {
+  aspect-ratio: 16 / 9;
+  width: 100%;
+}
+
+.prose h2,
+.prose h3 {
+  scroll-margin-top: 6rem;
+}
