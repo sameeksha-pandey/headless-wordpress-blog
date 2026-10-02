@@ -3,7 +3,7 @@
 A responsive, SEO friendly headless blog built with **Next.js (App Router)**, **TypeScript** and **Tailwind CSS**. All content comes from the BabyMD WordPress REST API, and SEO metadata comes from the Yoast SEO plugin.
 
 - WordPress API: `https://blog.babymd.in/wp-json/wp/v2`
-- Live URL: _to be added after deployment_
+- Live URL: https://headless-wordpress-blog-delta.vercel.app/blog
 
 ## Table of Contents
 
